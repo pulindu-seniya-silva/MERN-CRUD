@@ -10,6 +10,9 @@ module.exports = router; */
 
 const config = {
   DB_CONNECTION_STRING: process.env.MONGODB_URL,
-}
+  GOOGLE_CLIENT_ID: process.env.MONGODB_URL,
+  GOOGLE_CLIENT_SECRET: process.env.MONGODB_URL,
+  GOOGLE_REDIRECT_URL: process.env.MONGODB_URL,
+};
 
 export default config;
