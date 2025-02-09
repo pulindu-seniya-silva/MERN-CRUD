@@ -13,6 +13,7 @@ const config = {
   GOOGLE_CLIENT_ID: process.env.MONGODB_URL,
   GOOGLE_CLIENT_SECRET: process.env.MONGODB_URL,
   GOOGLE_REDIRECT_URL: process.env.MONGODB_URL,
+  SESSION_SECRET: process.env.SESSION_SECRET,
 };
 
 export default config;

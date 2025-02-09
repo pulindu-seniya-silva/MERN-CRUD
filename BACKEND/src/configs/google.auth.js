@@ -1,5 +1,5 @@
 import GoogleStrategy from "passport-google-oauth20";
-import config from ".";
+import config from "./index.js";
 import logger from "../utils/logger.js";
 
 const googleAuth = (passport) => {
